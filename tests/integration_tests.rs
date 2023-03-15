@@ -71,8 +71,7 @@ fn get_contract_with_query() -> anyhow::Result<()> {
 
     let res = aw!(client.get_contract_with_query(contract_tx_id, query))?;
     let r = res.result.unwrap();
-    let result = r[0].clone();
-    let result = result.as_str();
+    let result = r[0].as_str();
     assert!(result == Some("VouchDAO"));
     Ok(())
 }
