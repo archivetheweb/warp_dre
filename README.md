@@ -1,5 +1,7 @@
 # Warp DRE
 
+![crates.io](https://img.shields.io/crates/v/warp_dre.svg)
+
 Rust package to interact with [Warp's](https://warp.cc/) DRE nodes.
 
 Example
