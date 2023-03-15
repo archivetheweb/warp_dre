@@ -2,6 +2,10 @@
 name = "warp_dre"
 version = "1.0.0"
 edition = "2021"
+license-file = "LICENSE.md"
+description = "Rust package to interact with Warp DRE nodes"
+repository = "https://github.com/archivetheweb/warp_dre"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
