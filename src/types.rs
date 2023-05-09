@@ -72,7 +72,7 @@ pub struct WarpSdkConfig {
 #[serde(rename_all = "camelCase")]
 pub struct EvaluationOptions {
     #[serde(rename = "useVM2")]
-    pub use_vm2: bool,
+    pub use_vm2: Option<bool>,
     pub max_call_depth: i64,
     pub max_interaction_evaluation_time_seconds: i64,
     pub allow_big_int: bool,
